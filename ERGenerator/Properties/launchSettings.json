@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ERGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "\"Samples\\\\Sample.tmpl\" \"Samples\" \"SampleER.txt\""
+    }
+  }
+}

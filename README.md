@@ -12,6 +12,7 @@ ERGenerator is to generate ER diagram from C# source code.
 ERGenerator "Samples\Sample.tmpl" "Samples" "out.txt"
 ## ER SampleerDiagram
 ```mermaid
+erDiagram
 Company ||--o{ Emp : emplyess
   Emp {
     int Id ""

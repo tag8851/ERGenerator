@@ -1,11 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ERGenerator.Samples
 {
-    /// <summary>
-    /// 会社情報
-    /// </summary>
-    public class Company : EntityBase
+    public  class Branch : EntityBase
     {
         /// <summary>
         /// ID
@@ -13,9 +14,9 @@ namespace ERGenerator.Samples
         [Key]
         public int Id { get; set; }
         /// <summary>
-        /// 会社名
+        /// 支店名
         /// </summary>
-        public string　Name { get; set; }
+        public string Name { get; set; }
         /// <summary>
         /// 住所
         /// </summary>

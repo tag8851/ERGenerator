@@ -2,15 +2,14 @@
 ERGenerator is to generate ER diagram from C# source code.
 ## topic
 * Mermaid Markdown text definitions
-* use roslyn parser 
+* Use roslyn parser 
 ## Step.
 1. Ddownload and build
-
 2. Create Templatefile
  see download sample template
 3. Execute
 ERGenerator "Samples\Sample.tmpl" "Samples" "out.txt"
-## ER SampleerDiagram
+## ER Sample Diagram
 ```mermaid
 erDiagram
 Company ||--o{ Emp : emplyess
